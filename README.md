@@ -6,6 +6,7 @@ A REST API for adding schools and listing them sorted by distance from a given l
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Features
 
@@ -102,3 +103,7 @@ School_Management/
 ├── vercel.json   # Vercel deployment config
 └── Procfile      # Process definition for Procfile-based hosts
 ```
+
+## License
+
+Released under the [MIT License](LICENSE).
