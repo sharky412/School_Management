@@ -78,15 +78,13 @@ Response `200`:
    mysql -u <user> -p < schools.sql
    ```
 
-3. Configure your database connection in a `.env` file:
+3. Copy `.env.example` to `.env` and fill in your database connection details:
 
-   ```env
-   DB_HOST=localhost
-   DB_USER=your_mysql_user
-   DB_PASSWORD=your_mysql_password
-   DB_NAME=School_Management
-   PORT=3000
+   ```bash
+   cp .env.example .env
    ```
+
+   `.env` is git-ignored. When deploying to Vercel, set `DB_HOST`, `DB_USER`, `DB_PASSWORD` and `DB_NAME` as environment variables in the Vercel project settings.
 
 4. Start the server (defaults to http://localhost:3000):
 
